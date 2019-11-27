@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Card from "../components/card"
+import ImgUpload from "../components/imgupload"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,6 +23,9 @@ const SecondPage = () => (
         text="there is some dummy text written3"
       />
     <Link to="/">Go to page 1</Link>
+
+    <ImgUpload/>
+
   </Layout>
 )
 

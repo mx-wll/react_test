@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Footer from "./footer"
+import CardImage from "./cardimage"
 import Header from "./header"
 import "./layout.css"
 
@@ -54,13 +55,10 @@ const Layout = ({ children }) => {
       <div className="wrapper">
         <main>
           {children}<br></br><br></br>
-          <div>{data.allContentfulCard.edges.map(edge => (
-            <img src={edge.node.image.file.url}/>&&<h1>{edge.node.image.description}</h1>
-            ))}
-            </div>
+          <CardImage data={data}/>
         </main>
-
       </div>
+
       <Footer data={data}/>
     </>
   )
