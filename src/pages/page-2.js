@@ -23,8 +23,7 @@ const SecondPage = () => (
         text="there is some dummy text written3"
       />
     <Link to="/">Go to page 1</Link>
-
-    <ImgUpload/>
+    <Link to="/page-3">Go to page 3</Link>
 
   </Layout>
 )
