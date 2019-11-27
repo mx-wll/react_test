@@ -1,0 +1,28 @@
+.header {
+top:0px;
+position: fixed;
+background-color: blue; 
+color: white; 
+height: 150px; 
+padding: 20px; 
+margin-bottom: 30px; 
+width: 100%
+}
+
+.headerScrolled {
+    background-color: black; 
+    color: white; 
+    height: 150px; 
+    padding: 20px; 
+    margin-bottom: 30px
+    }
+
+.link {
+    color: white; 
+    text-decoration: none; 
+}
+
+.linkScrolled {
+    color: green;
+    text-decoration: none
+}

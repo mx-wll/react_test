@@ -1,0 +1,40 @@
+{
+    "social": [
+        {
+            "altText": "Facebook", 
+            "imageURL": "http://signature.goodpatch.com/social_icons/facebook.png",
+            "imageLink": "facebook.com"
+        },
+        {
+            "altText": "LinkedIN", 
+            "imageURL": "http://signature.goodpatch.com/social_icons/linkedin.png",
+            "imageLink": "http://www.linkedin.com" 
+        },
+        {
+            "altText": "Medium", 
+            "imageURL": "http://signature.goodpatch.com/social_icons/medium.png",
+            "imageLink": "http://www.medium.com" 
+        },
+        {
+            "altText": "Twitter", 
+            "imageURL": "http://signature.goodpatch.com/social_icons/twitter.png",
+            "imageLink": "http://www.twitter.com"
+        },
+        {
+            "altText": "Instagram", 
+            "imageURL": "http://signature.goodpatch.com/social_icons/instagram.png",
+            "imageLink": "http://www.instagram.com" 
+        },
+        {
+            "altText": "Youtube", 
+            "imageURL": "http://signature.goodpatch.com/social_icons/youtube.png",
+            "imageLink": "http://www.youtube.com"
+        },
+        {
+            "altText": "Dribbble", 
+            "imageURL": "http://signature.goodpatch.com/social_icons/dribbble.png",
+            "imageLink": "http://www.dribbble.com" 
+        }
+    ]
+
+}
